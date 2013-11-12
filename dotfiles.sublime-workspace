@@ -1,0 +1,891 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Http",
+				"HttpResponse"
+			],
+			[
+				"result",
+				"result"
+			],
+			[
+				"PRO",
+				"PROJECT_SLUG"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"ver",
+				"verbose_name_plural"
+			],
+			[
+				"he",
+				"help"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/sekude/.bashrc",
+			"settings":
+			{
+				"buffer_size": 3786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#!/bin/sh\n# Setup a machine for Sublime Text 3\nset -x\n\n# symlink settings in\nsublime_dir=~/home/sekude/.config/sublime-text-3/Packages/\nmv \"$sublime_dir/User\" \"$sublime_dir/User.backup\"\nln -s \"$ZSH/sublime3/User\" \"$sublime_dir\"\n\n# Grab the Soda theme\ncd \"$sublime_dir\"\ngit clone https://github.com/buymeasoda/soda-theme/ \"Theme - Soda\"\n",
+			"file": "sublime3/setup",
+			"file_size": 336,
+			"file_write_time": 130274899702156714,
+			"settings":
+			{
+				"buffer_size": 336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "git/gitconfig.symlink",
+			"settings":
+			{
+				"buffer_size": 953,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "byobu/setup",
+			"settings":
+			{
+				"buffer_size": 472,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "byobu/byoburc.symlink",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sekude/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sekude/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 4,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "[\n	\n]\n",
+			"file": "sublime3/User/User.backup/Default (Linux).sublime-keymap",
+			"file_size": 6,
+			"file_write_time": 130274902991836698,
+			"settings":
+			{
+				"buffer_size": 6,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sublime3/copy",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sekude/.byobu/statusrc",
+			"settings":
+			{
+				"buffer_size": 2529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sublime3/User/Default (Linux).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 4,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Todo				default due/min\nTel 			 	10\nTelCo				60\nMeeting				60\n",
+			"file": "/home/sekude/Documents/Ideen/terminplaner.md",
+			"file_size": 0,
+			"file_write_time": 130278799146370042,
+			"settings":
+			{
+				"buffer_size": 62,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"se sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"set sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sekude/Documents/Ideen/ideen.md",
+		"/home/sekude/.dotfiles/sublime3/User/Global.sublime-settings",
+		"/home/sekude/.dotfiles/sublime3/User/Preferences.sublime-settings",
+		"/home/sekude/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/sekude/.dotfiles/sublime2/setup",
+		"/home/sekude/.dotfiles/byobu/byobu.symlink",
+		"/home/sekude/.dotfiles/byobu/setup_byobu",
+		"/home/sekude/.dotfiles/byobu/status",
+		"/home/sekude/.dotfiles/zsh/zshrc.symlink",
+		"/home/sekude/.dotfiles/zsh/prompt.zsh",
+		"/usr/share/byobu/profiles/common",
+		"/usr/share/byobu/profiles/byoburc",
+		"/home/sekude/.dotfiles/homebrew/install.sh",
+		"/home/sekude/projects/QT-Tutorial/README.md",
+		"/home/sekude/projects/testinggoat/superlists/functional_tests.py",
+		"/home/sekude/projects/testinggoat/superlists/superlists/settings.py",
+		"/home/sekude/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/sekude/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/sekude/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/sekude/code/sekude.github.io/_drafts/mapping.md",
+		"/home/sekude/code/sekude.github.io/_drafts/mongodb.md",
+		"/home/sekude/code/finanze/csv.py",
+		"/home/sekude/code/sekude.github.io/assets/sass/icons.sass",
+		"/home/sekude/code/sekude.github.io/_includes/footer.html",
+		"/home/sekude/code/sekude.github.io/index.html",
+		"/home/sekude/code/sekude.github.io/_layouts/default.html",
+		"/home/sekude/code/finanze/test.csv",
+		"/home/sekude/code/sekude.github.io/_drafts/Scientific_Programming_and_Publishing.md",
+		"/home/sekude/code/sekude.github.io/_layouts/post.html",
+		"/home/sekude/code/sekude.github.io/_drafts/webdevelopment.md",
+		"/home/sekude/code/sekude.github.io/_drafts/zsh_byobu.md",
+		"/home/sekude/code/sekude.github.io/_config.yml",
+		"/home/sekude/code/sekude.github.io/index1.html",
+		"/home/sekude/code/notebook/latex_commands.csv",
+		"/home/sekude/code/sekude.github.io/_drafts/keyboard.md",
+		"/home/sekude/code/sekude.github.io/_drafts/awesome_wm.md",
+		"/home/sekude/.config/chromium/Default/Extensions/pofoighmmpljaikjiidkkfhldjndfdbk/3.6.0_0/frontend/assets/layouts/azerty.json",
+		"/home/sekude/.config/chromium/Default/Extensions/pofoighmmpljaikjiidkkfhldjndfdbk/3.6.0_0/frontend/assets/layouts/german_neo2.json",
+		"/home/sekude/.config/chromium/Default/Extensions/pofoighmmpljaikjiidkkfhldjndfdbk/3.6.0_0/frontend/assets/layouts/neo.md",
+		"/home/sekude/.config/chromium/Default/Extensions/pofoighmmpljaikjiidkkfhldjndfdbk/3.6.0_0/frontend/assets/layouts/dvorak.json",
+		"/home/sekude/code/notebook/physics.ipynb",
+		"/home/sekude/Email/Signaturen/asta.html",
+		"/home/sekude/code/sekude.github.io/_site/index.html",
+		"/home/sekude/code/sekude.github.io/sekude.github.io.sublime-project",
+		"/home/sekude/code/sekude.github.io/_drafts/ruby.md",
+		"/home/sekude/code/sekude.github.io/_drafts/security.md",
+		"/home/sekude/code/sekude.github.io/_drafts/sass.md",
+		"/home/sekude/code/sekude.github.io/assets/sass/sekude.sass",
+		"/home/sekude/code/sekude.github.io/assets/sass/pygment_trac.sass",
+		"/home/sekude/code/sekude.github.io/.gitignore",
+		"/home/sekude/code/sekude.github.io/_site/sekude.github.io.sublime-project",
+		"/home/sekude/code/sekude.github.io/assets/css/sass/framework.sass",
+		"/home/sekude/code/sekude.github.io/assets/css/sass/sekude.sass",
+		"/home/sekude/code/sekude.github.io/assets/css/sass/footer.sass",
+		"/home/sekude/.config/chromium/Default/Extensions/pofoighmmpljaikjiidkkfhldjndfdbk/3.6.0_0/frontend/assets/layouts/qwerty.json",
+		"/home/sekude/code/sekude.github.io/_includes/navi.html",
+		"/home/sekude/code/sekude.github.io/_includes/header.html",
+		"/home/sekude/code/sekude.github.io/assets/css/stylesheet.sass",
+		"/home/sekude/Programming/esp/seminaranmeldesystem/php/namen-liste.php",
+		"/home/sekude/Programming/esp/seminaranmeldesystem/php/einteilen-liste.php",
+		"/home/sekude/Programming/esp/seminaranmeldesystem/php/massen_mailer.php",
+		"/home/sekude/Programming/esp/seminaranmeldesystem/tn_anmeldung.php",
+		"/home/sekude/Programming/GUI/kivy/pong/main.py",
+		"/home/sekude/Programming/GUI/kivy/pong/pong.kv",
+		"/home/sekude/.config/sublime-text-2/Packages/Kivy/kivy.json-tmlanguage",
+		"/home/sekude/.config/sublime-text-2/Packages/Kivy/kivy.tmLanguage",
+		"/home/sekude/Dropbox/AStA/Kommunikation/Archiv Mailinglists/AStA Infoseite.html",
+		"/home/sekude/Programming/Django/Projects/STM/timemanager.py",
+		"/home/sekude/.config/sublime-text-2/Packages/Python/Python.tmLanguage",
+		"/home/sekude/Programming/Django/Projects/sekude/sekude/settings.py",
+		"/home/sekude/Dropbox/AWE 2013/Dokumentation/1_interne kommunikation_hh/ddd",
+		"/home/sekude/1232.html",
+		"/home/sekude/Programming/bsch_db_script.html",
+		"/tmp/fz3temp-1/localsettings.py",
+		"/home/sekude/Programming/wordpress/widgets/wp-asta-recent-decisions/wp-asta-recent-decisions.php",
+		"/home/sekude/upc.py",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/settings/test.py",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/settings/production.py",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/settings/local.py",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/settings/base.py",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/settings/__init__.py",
+		"/tmp/fz3temp-1/settings.py",
+		"/home/sekude/Programming/wordpress/widgets/AStA_BeschlussWidget.php",
+		"/home/sekude/games/DayOfTheTentacle/MT32_PCM.ROM",
+		"/home/sekude/games/DayOfTheTentacle/MT32_CONTROL.ROM",
+		"/home/sekude/games/DayOfTheTentacle/monster.sof",
+		"/home/sekude/webcast/functional_tests.py",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/.gitignore",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/requirements/test.txt",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/requirements/local.text",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/test.txt",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/production.txt",
+		"/home/sekude/Programming/Django/Projects/sekude_project_template/requirements/base.txt",
+		"/home/sekude/Programming/Django/Projects/superlists/sekude_project_template.sublime-project",
+		"/home/sekude/Programming/Django/Projects/superlists/lists/templates/home.html",
+		"/home/sekude/Programming/Django/Projects/superlists/functional_tests/tests.py",
+		"/home/sekude/Programming/Django/Projects/superlists/urls.py",
+		"/home/sekude/Programming/Django/Projects/superlists/lists/views.py",
+		"/home/sekude/Programming/Django/Projects/superlists/lists/tests.py",
+		"/opt/ApacheDirectoryStudio/ApacheDirectoryStudio",
+		"/home/sekude/Programming/Django/Projects/superlists/functional_tests.py",
+		"/usr/share/pkg-config-crosswrapper",
+		"/home/sekude/Programming/Django/Projects/superlists/settings.py",
+		"/media/CE77-0FE5/adm.cgi",
+		"/home/sekude/pootle.fcgi",
+		"/home/sekude/a.htaccess",
+		"/media/CE77-0FE5/pootle.fcgi",
+		"/media/CE77-0FE5/eruby-fcgi-starter.cgi",
+		"/home/sekude/Programming/Django/Projects/superlists/test.py",
+		"/home/sekude/Programming/Django/Projects/superlists/untitled",
+		"/home/sekude/Documents/application/application_Hiwi_FH-Aachen.tex",
+		"/home/sekude/Documents/application/ModernCV_ntrp_Template.tex",
+		"/home/sekude/Programming/Django/Projects/TDD/TDD/lists/tests.py",
+		"/home/sekude/Programming/Django/Projects/TDD/TDD/TDD/urls.py",
+		"/home/sekude/Programming/Django/Projects/TDD/TDD/TDD/settings/base.py",
+		"/home/sekude/Programming/Django/Projects/TDD/TDD/lists/urls.py",
+		"/home/sekude/Programming/Django/Projects/wahlen/wahlen/candidate/urls.py",
+		"/home/sekude/Programming/Django/Projects/TDD/TDD/lists/views.py",
+		"/home/sekude/Programming/Django/Projects/TDD/TDD/functional_tests.py",
+		"/home/sekude/Programming/Django/Projects/wahlen/wahlen/wahlen/urls.py",
+		"/home/sekude/Programming/Django/Projects/TDD/.gitignore",
+		"/home/sekude/Programming/Django/Projects/TDD/requirements/local.txt",
+		"/home/sekude/Programming/Django/Projects/wahlen/wahlen/wahlomat/admin.py",
+		"/home/sekude/Programming/Django/Projects/wahlen/wahlen/candidate/views.py",
+		"/home/sekude/Programming/Django/Projects/wahlen/wahlen/wahlomat/views.py",
+		"/home/sekude/Programming/Django/Projects/wahlen/wahlen/candidate/forms.py",
+		"/home/sekude/Programming/Django/Projects/wahlen/wahlen/wahlomat/models.py",
+		"/home/sekude/Programming/Django/Projects/wahlen/wahlen/wahlen/settings/base.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"__builtin__",
+			"has",
+			"stringio",
+			"os",
+			"StringIO",
+			"print",
+			"dictv",
+			".highlight",
+			".type-csharp",
+			"; ",
+			";",
+			"}",
+			"*/",
+			"/*",
+			"highlight",
+			"require_once(",
+			"mail",
+			"mail(",
+			"\n",
+			"latest_tweets_render_html",
+			"latest_tweets_render",
+			"barcode",
+			"0",
+			",",
+			"“",
+			"”",
+			"\n",
+			"extra_",
+			"HttpResponse",
+			"department",
+			"handy",
+			"mobilephone",
+			"stando",
+			"standot",
+			"get_fachbereich_display",
+			"kandidatin",
+			"fragen_offen",
+			"frage_offen",
+			"von_name",
+			"fragen",
+			"frage",
+			"fragen_offen",
+			"frage_offen",
+			"home",
+			"site_condent",
+			"site_sidebar",
+			"site_content",
+			"sidebar",
+			"django.conf.urls.default",
+			"pip install ",
+			"from_",
+			"kandidatin",
+			"CommitteeAdmin",
+			"Gremium",
+			"Frage",
+			"KandidatIn",
+			"handy",
+			"fragen",
+			"antwort",
+			"frage",
+			"Frage",
+			"frage",
+			"Frage",
+			"frage",
+			"kandidatin",
+			"KandidatIn",
+			"kandidatin",
+			"KandidatIn",
+			"kandidatin",
+			"KandidatIn",
+			"kandidatin",
+			"KandidatIn",
+			"kandidatin",
+			"KandidatIn",
+			"kandidatin",
+			"kandidatIn",
+			"kandidatin",
+			"kandidatin_set",
+			"Gremium",
+			"gremium",
+			"Gremium",
+			"gremium",
+			"gremien",
+			"kandidatin",
+			"KandidatIn",
+			"kandidatin",
+			"kandidatIn",
+			"kandidatin",
+			"KandidatIn",
+			"FB",
+			"fb",
+			"FB",
+			"vote",
+			"comment",
+			"poll",
+			"latest_poll_list",
+			"wahlomat_thesis",
+			"lomat_the",
+			"elp_te",
+			"Dept",
+			"depts",
+			"Depts",
+			"helptext",
+			"departments",
+			"helptext",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/sekude/.bashrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sublime3/setup",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "git/gitconfig.symlink",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "byobu/setup",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "byobu/byoburc.symlink",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/sekude/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/sekude/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sublime3/User/User.backup/Default (Linux).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sublime3/copy",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/sekude/.byobu/statusrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"file": "sublime3/User/Default (Linux).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/sekude/Documents/Ideen/terminplaner.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"project": "dotfiles.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/sekude/projects/byobu/byobu.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 324.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

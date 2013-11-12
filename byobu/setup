@@ -1,0 +1,24 @@
+#!/bin/sh
+# Setup a machine for Byobu
+
+# Derpendencies
+#  * tmux >= 1.5 and screen
+#  * python-newt (if you want to use Byobu's configuration utility)
+#  * gsed (if your sed implementation doesn't support -i)
+
+set -x
+
+git clone https://github.com/sekude/byobu.git
+cd byobu*
+./debian/rules autoconf
+./configure --prefix="$HOME/byobu"
+make
+make install
+
+# clean up
+make clean
+cd ..
+rm -R byobu*
+
+# echo "export PATH=$HOME/byobu/bin:$PATH" >> $HOME/.bashrc
+# . $HOME/.bashrc
